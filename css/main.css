@@ -109,3 +109,31 @@ body {
 .container .item .fa {
   font-size: 25px;
 }
+.menu .container {
+  flex-direction: column;
+}
+.menu .container .item {
+  /* flex-direction: column; */
+  display: flex;
+  flex-grow: 20px;
+  /* border: solid; */
+  width: 100%;
+  padding: 0;
+  margin: 10px 0px;
+}
+.menu .container .item p {
+  margin: 0px 20px;
+  font-size: 20px;
+}
+.menu-footer {
+  margin: 10px 20px;
+}
+.menu-footer a {
+  /* margin: 10px 20px; */
+  color: #fff;
+  text-decoration: none;
+}
+.menu-footer a i {
+  margin: 0px 5px;
+  /* color: #fff; */
+}
