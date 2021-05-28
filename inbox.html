@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>E-wallet</title>
+    <title>E-wallet/ History</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -17,28 +17,60 @@
 
 <body>
 
+    <!-- menu  -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <div>
-                Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
-                images, lists, etc.
-            </div>
-            <div class="dropdown mt-3">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                    data-bs-toggle="dropdown">
-                    Dropdown button
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+            <!-- <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
+            images, lists, etc.
+        </div> -->
+            <div class="menu">
+                <div class="container">
+                    <div class="item" onclick="redirect('./index.html')">
+                        <i class="fa fa-home"></i>
+                        <p>Home</p>
+                    </div>
+                    <div class="item" onclick="redirect('./inbox.html')">
+                        <i class="fa fa-history"></i>
+                        <p>History</p>
+                    </div>
+                    <div class="item" onclick="redirect('./bank.html')">
+                        <i class="fa fa-university"></i>
+                        <p>Bank</p>
+                    </div>
+                    <div class="item">
+                        <i class="fa fa-money"></i>
+                        <p>Currency converter <i style="font-size: 10px; color: rgb(147, 147, 147);">(Upcoming)</i> </p>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- end menu -->
+        <!-- <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div> -->
+        <span class="menu-footer">
+            Designed by Victor Josiah &copy; 2021 <br>
+            <button class="btn btn-primary btn-sm">
+                <a href="https://github.com/jovick-coder/E-wallet">
+                    GitHub
+                    <i class="fa fa-github"></i>
+                </a>
+            </button>
+        </span>
+    </div>
     </div>
     <div class="wallet-container text-center">
         <p class="page-title"><i class="fa fa-align-left"></i>My E-wallet<i class="fa fa-user"></i></p>
@@ -50,10 +82,7 @@
             <p class="amount">$ 123</p>
         </div>
 
-        <!-- <div class="btn-group text-center">
-            <button type="button" class="btn btn-outline-light">Add Money</button>
-            <button type="button" class="btn btn-outline-light">Widthdraw</button>
-        </div> -->
+
 
         <div class="txn-history">
             <p><b>History</b></p>

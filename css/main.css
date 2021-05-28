@@ -104,6 +104,7 @@ body {
 .container .item {
   /* border: solid; */
   width: 20%;
+  cursor: pointer;
   text-align: center;
 }
 .container .item .fa {

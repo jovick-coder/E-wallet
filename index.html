@@ -57,14 +57,14 @@
                 </div>
                 <div class="modal-footer">
 
-                    <button type="submit" class="btn btn-primary">Transfer</button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-outline-primary">Transfer</button>
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
+    <!-- menu  -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
@@ -72,9 +72,9 @@
         </div>
         <div class="offcanvas-body">
             <!-- <div>
-                Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
-                images, lists, etc.
-            </div> -->
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
+            images, lists, etc.
+        </div> -->
             <div class="menu">
                 <div class="container">
                     <div class="item" onclick="redirect('./index.html')">
@@ -89,6 +89,14 @@
                         <i class="fa fa-university"></i>
                         <p>Bank</p>
                     </div>
+                    <div class="item" onclick="redirect('./bank.html')">
+                        <i class="fa fa-info"></i>
+                        <p>About us</p>
+                    </div>
+                    <div class="item" onclick="redirect('./bank.html')">
+                        <i class="fa fa-question"></i>
+                        <p>FAQ</p>
+                    </div>
                     <div class="item">
                         <i class="fa fa-money"></i>
                         <p>Currency converter <i style="font-size: 10px; color: rgb(147, 147, 147);">(Upcoming)</i> </p>
@@ -96,6 +104,7 @@
                 </div>
             </div>
         </div>
+        <!-- end menu -->
         <!-- <div class="dropdown mt-3">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                 data-bs-toggle="dropdown">
