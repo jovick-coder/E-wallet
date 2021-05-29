@@ -73,117 +73,6 @@
     </section>
     <!-- end menu section -->
 
-    <!-- credit modal section -->
-    <section id="credit modal">
-        <!-- Modal -->
-        <div class="modal fade" id="credit" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Credit</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-
-                        <form action="" class="">
-                            <!-- <span><b>Full name</b></span>
-                   <input type="text" class="form-control"> -->
-                            <!-- <span><b>Bank</b></span> -->
-                            <span><b>Card Number</b></span>
-                            <input type="number" class="form-control">
-                            <span><b>Amount</b></span>
-                            <input type="text" class="form-control">
-                            <span><b>Bank</b></span>
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Select a Bank</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                            <span><b>Password</b></span>
-                            <input type="password" class="form-control">
-
-                    </div>
-
-                    <div class="">
-                        <p>
-                            <span><b>Payment</b></span>
-
-                        </p>
-                        <i class="fa fa-exchange" aria-hidden="true"></i>
-                        <i class="fa fa-paypal" aria-hidden="true"></i>
-                        <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-                        <i class="fa fa-credit-card" aria-hidden="true"></i>
-                    </div>
-                    <div class="modal-footer">
-
-                        <button type="submit" class="btn btn-outline-primary">Transfer</button>
-                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end credit -->
-    </section>
-    <!-- end credit modal section -->
-
-    <!-- debit-modal section -->
-    <section id="debit-modal">
-        <!-- Modal -->
-        <div class="modal fade" id="send" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Transfer</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-
-                        <form action="" class="">
-                            <span><b>Full name</b></span>
-                            <input type="text" class="form-control">
-                            <!-- <span><b>Bank</b></span> -->
-                            <span><b>Account Number</b></span>
-                            <input type="text" class="form-control">
-                            <span><b>Amount</b></span>
-                            <input type="text" class="form-control">
-                            <span><b>Bank</b></span>
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Select a Bank</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                            <span><b>E-wallet Password</b></span>
-                            <input type="password" class="form-control">
-
-                    </div>
-
-                    <div class="">
-                        <p>
-                            <span><b>Payment</b></span>
-
-                        </p>
-                        <i class="fa fa-exchange" aria-hidden="true"></i>
-                        <i class="fa fa-paypal" aria-hidden="true"></i>
-                        <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-                        <i class="fa fa-credit-card" aria-hidden="true"></i>
-                    </div>
-                    <div class="modal-footer">
-
-                        <button type="submit" class="btn btn-outline-primary">Transfer</button>
-                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end send modal -->
-    </section>
-    <!-- end debit-modal section -->
 
     <!-- main-continer section -->
     <section id="main-continer">
@@ -199,12 +88,12 @@
 
             <!-- Button trigger modal -->
             <div class="btn-group text-center">
-                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#send">
+                <!-- <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#send">
                     <i class="fa fa-exchange" aria-hidden="true"></i> Transfer
-                </button>
+                </button> -->
 
-                <button type=" button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#credit">
-                    <i class="fa fa-credit-card"></i> Credit
+                <button type=" button" class="btn btn-outline-light" onclick="redirect('./bank.html')">
+                    <i class="fa fa-bank"></i> Bank
                 </button>
             </div>
 

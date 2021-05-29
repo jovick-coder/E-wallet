@@ -48,7 +48,7 @@ body {
 .btn-group .btn {
   margin: 8px;
   border-radius: 20px !important;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .txn-history {
@@ -137,4 +137,23 @@ body {
 .menu-footer a i {
   margin: 0px 5px;
   /* color: #fff; */
+}
+
+.questions {
+  color: black;
+  text-align: start;
+  font-size: 12px;
+}
+.question-form {
+  align-items: flex-start;
+  text-align: start;
+  width: 100%;
+  flex-direction: column;
+}
+.question-form input[type='submit'] {
+  margin-left: 75%;
+  margin-top: 10px;
+}
+.question-form form span {
+  width: 100%;
 }
