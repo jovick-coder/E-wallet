@@ -123,8 +123,13 @@ body {
   margin: 10px 0px;
 }
 .menu .container .item p {
-  margin: 0px 20px;
-  font-size: 20px;
+  margin: 0px 0px;
+  font-size: 16px;
+}
+.menu .container .item .fa {
+  /* border: solid; */
+  margin: 0;
+  width: 40px;
 }
 .menu-footer {
   margin: 10px 20px;
@@ -156,4 +161,17 @@ body {
 }
 .question-form form span {
   width: 100%;
+}
+.payment-icons {
+  /* border: solid; */
+  text-align: center;
+}
+.payment-icons p {
+  /* text-align: start; */
+  border-bottom: solid;
+  margin: 2px 20px;
+}
+.payment-icons .fa {
+  margin: 2px 5px;
+  font-size: 30px;
 }
